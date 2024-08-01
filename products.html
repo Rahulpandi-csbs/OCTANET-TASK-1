@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        /* Add some basic styling to make the layout look decent */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .all-box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .box-contain {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .box {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin: 10px;
+            width: calc(33.33% - 20px);
+            text-align: center;
+        }
+        .box img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>FOOD ZONE</h1>
+    </div>
+
+    <div class="all-box">
+        <div class="box-contain">
+            <div class="box">
+                <img src="https://via.placeholder.com/400x150?text=Burger" alt="Burger">
+                <h2>Burger</h2>
+                <p>A juicy beef burger topped with fresh lettuce, tomatoes, and cheese.</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/400x150?text=Pizza" alt="Pizza">
+                <h2>Pizza</h2>
+                <p>Classic pepperoni pizza with a crispy crust and gooey cheese.</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/400x150?text=Sushi" alt="Sushi">
+                <h2>Sushi</h2>
+                <p>Fresh sushi rolls with a variety of fillings, served with soy sauce and wasabi.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="all-box">
+        <div class="box-contain">
+            <div class="box">
+                <img src="https://via.placeholder.com/400x150?text=Tacos" alt="Tacos">
+                <h2>Tacos</h2>
+                <p>Soft corn tortillas filled with seasoned meat, topped with cilantro and onions.</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/400x150?text=Steak" alt="Steak">
+                <h2>Steak</h2>
+                <p>Grilled steak cooked to perfection, served with a side of vegetables.</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/400x150?text=Salad" alt="Salad">
+                <h2>Salad</h2>
+                <p>Fresh mixed greens with cherry tomatoes, cucumbers, and a light vinaigrette.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
